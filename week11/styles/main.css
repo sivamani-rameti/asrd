@@ -1,0 +1,16 @@
+.item {
+    display: flex;
+    background: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid white;
+    height: 33%;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    font-size: large;
+}
+.row{
+    height: 100vh;
+}

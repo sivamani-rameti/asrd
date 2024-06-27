@@ -1,0 +1,26 @@
+@import "susy-settings";
+
+.container {
+  @include container;
+
+  .item {
+    @include span(3 of 12);
+    background: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container .item {
+    @include span(6 of 12);
+  }
+}
+
+@media (max-width: 480px) {
+  .container .item {
+    @include span(12 of 12);
+  }
+}
